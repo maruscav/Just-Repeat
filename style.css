@@ -1,0 +1,227 @@
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens here */
+}
+
+body {
+  text-align: center;
+  background-color: #f7f7f7;
+  font-family: "Montserrat", sans-serif;
+  color: #555;
+  font-weight: 700;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-container {
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.7);
+  width: 40rem;
+  max-width: 100%;
+  margin-top: 2rem;
+  opacity: 98%;
+  margin-bottom: 8rem;
+}
+
+#german-word {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  border: 1px solid #22b8cf;
+  background-color: #22b8cf;
+  border-radius: 6px;
+}
+
+#options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#btn-5-words,
+#btn-10-words,
+#back-to-category {
+  margin-top: 20px;
+  background-color: #77dbcf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: transform 0.2s ease;
+  font-size: 16px;
+}
+
+#btn-5-words:hover,
+#btn-10-words:hover,
+#back-to-category:hover {
+  transform: translateY(-5px);
+  /* You can adjust the translateY value to control the lift height */
+}
+
+#submit-btn,
+#restart-btn {
+  margin-top: 20px;
+  background-color: #77dbcf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  width: 6.1rem;
+}
+
+#submit-btn:hover,
+#restart-btn:hover {
+  transform: translateY(-2px);
+  /* You can adjust the translateY value to control the lift height */
+}
+
+#score {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2px;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: transform 0.2s ease;
+}
+
+.option:hover {
+  background-color: #f2f2f2;
+  transform: translateY(-5px);
+  /* You can adjust the translateY value to control the lift height */
+}
+
+.option.correct {
+  background-color: #00b300; /* Green color for correct option */
+  color: #fff; /* White text color for correct option */
+}
+
+.option.wrong {
+  background-color: #e60000; /* Red color for wrong option */
+  color: #fff; /* White text color for wrong option */
+}
+
+/* General styles for the navigation bar */
+.navbar {
+  background-color: rgba(20, 20, 32, 0.95);
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Styles for the navigation links */
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link,
+.navbar-brand {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-link:hover,
+.navbar-brand:hover {
+  text-decoration: underline;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 7rem;
+  background: rgba(20, 20, 32, 0.95);
+  color: #fff;
+  margin-bottom: 0;
+  padding-top: 2rem;
+  padding-bottom: 0.3rem;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+.design {
+  opacity: 20%;
+}
+
+.policy-container {
+  font-family: "Montserrat", sans-serif;
+  margin: 10rem auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.7);
+  width: 40rem;
+  max-width: 100%;
+}
+
+.progress-bar {
+  display: inline-block;
+  width: 50rem;
+  max-width: 100%;
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 10px;
+}
